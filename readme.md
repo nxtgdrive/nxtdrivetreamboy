@@ -170,6 +170,6 @@ Bot also Supported with Channels. Just add bot Channel as Admin. If any new file
 
 ### Credits : 
 
-- [Adarsh](https://github.com/adarsh-goel)
--[Knox](https://github.com/aceknox)
+- [Adarsh](https://github.com/adarsh-goel),
+- [Knox](https://github.com/aceknox),
 - Everyone In This Journey !
