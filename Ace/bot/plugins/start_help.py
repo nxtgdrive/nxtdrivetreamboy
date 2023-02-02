@@ -76,7 +76,7 @@ async def start(b, m):
             return
     await StreamBot.send_photo(
         chat_id=m.chat.id,
-        photo ="",
+        photo ="https://drgraph.cf/J5elPAzF",
         caption =f'Hi {m.from_user.mention(style="md")}!,\nI am Telegram File to Link Generator Bot with Channel support.\nSend me any file and get a direct download link and streamable link and join @knoxbots!',
         reply_markup=buttonz)
 
@@ -103,7 +103,7 @@ async def help_handler(bot, message):
         except UserNotParticipant:
             await StreamBot.send_photo(
                 chat_id=message.chat.id,
-                photo="",
+                photo="https://drgraph.cf/J5elPAzF",
                 Caption="**Join support group for use the bot !**\n\n__Only channel members can use the bot!__",
                 reply_markup=InlineKeyboardMarkup(
                     [
