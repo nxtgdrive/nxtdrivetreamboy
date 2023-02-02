@@ -20,7 +20,7 @@ pass_dict = {}
 pass_db = Database(Var.DATABASE_URL, "ag_passwords")
 
 
-@StreamBot.on_message((filters.regex("login🔑") | filters.command("login")) , group=4)
+@StreamBot.on_message((filters.regex("login") | filters.command("login")) , group=4)
 async def login_handler(c: Client, m: Message):
     try:
         try:
