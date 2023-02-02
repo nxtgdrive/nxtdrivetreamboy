@@ -55,7 +55,7 @@ async def start(b, m):
         except UserNotParticipant:
              await StreamBot.send_photo(
                 chat_id=m.chat.id,
-                photo="",
+                photo="https://drgraph.cf/J5elPAzF",
                 caption="<i>Join Update Channel to use Me </i>",
                 reply_markup=InlineKeyboardMarkup(
                     [
