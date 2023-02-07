@@ -70,7 +70,7 @@ async def start(b, m):
         except Exception:
             await b.send_message(
                 chat_id=m.chat.id,
-                text="<i>Something Went Wrong</i> <b> <a href='https://t.me/knoxbots'>CLICK HERE FOR SUPPORT </a></b>",
+                text="<i>Something Went Wrong</i> <b> <a href='https://t.me/knoxprojects'>CLICK HERE FOR SUPPORT </a></b>",
                 
                 disable_web_page_preview=True)
             return
@@ -118,7 +118,7 @@ async def help_handler(bot, message):
         except Exception:
             await bot.send_message(
                 chat_id=message.chat.id,
-                text="__Something went wrong. contact us __ [KNOXBOTS](https://t.me/knoxbots).",
+                text="__Something went wrong. contact us __ [knox Projects](https://t.me/knoxprojects).",
                 disable_web_page_preview=True)
             return
     await message.reply_text(
