@@ -90,7 +90,7 @@ async def private_receive_handler(c: Client, m: Message):
             await m.reply_text(e)
             await c.send_message(
                 chat_id=m.chat.id,
-                text="**Something Went Wrong contact in group ** [KNOXBOTS](https://t.me/knoxbots)",
+                text="**Something Went Wrong contact in group ** [knox projects](https://t.me/knoxprojects)",
                 
                 disable_web_page_preview=True)
             return
