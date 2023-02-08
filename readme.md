@@ -65,6 +65,7 @@ then goto the <a href="#mandatory-vars">variables tab</a> for more info on setti
 ▫️Superfast⚡️ download and stream links.<br>
 ▫️No ads in generated links.<br>
 ▫️Superfast interface.<br>
+▫️4GB support.<br>
 ▫️Along with the links you also get file information like name,size ,etc.<br>
 ▫️Updates channel Support.<br>
 ▫️Mongodb database support for broadcasting.<br>
