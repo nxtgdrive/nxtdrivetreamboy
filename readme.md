@@ -83,8 +83,8 @@ then goto the <a href="#mandatory-vars">variables tab</a> for more info on setti
 
 
 ```py
-git clone https://github.com/adarsh-goel/filestreambot-pro
-cd filestreambot-pro
+git clone https://github.com/aceknox/filestreambot
+cd filestreambot
 virtualenv -p /usr/bin/python3 venv
 . ./venv/bin/activate
 pip install -r requirements.txt
