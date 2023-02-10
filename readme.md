@@ -21,9 +21,9 @@
 
 <hr>
 
-## 🍁 About This Bot :
+##  About This Bot :
 
-![streamingfilestreambot-professional-live_1](https://user-images.githubusercontent.com/88939380/137127129-a86fc939-2931-4c66-b6f6-b57711a9eab7.png)
+![streamingfilestreambot-professional-live_1](https://telegra.ph/file/cd472acf49a993c915ed3.jpg)
 
 </p>
 <p align='center'>
