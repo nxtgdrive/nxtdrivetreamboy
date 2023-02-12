@@ -1,4 +1,5 @@
 # (c) adarsh-goel  #aceknox
+
 from Ace.bot import StreamBot
 from Ace.vars import Var
 import logging
@@ -55,7 +56,7 @@ async def start(b, m):
         except UserNotParticipant:
              await StreamBot.send_photo(
                 chat_id=m.chat.id,
-                photo="",
+                photo="https://telegra.ph/file/cd472acf49a993c915ed3.jpg",
                 caption="<i>Join Update Channel to use Me </i>",
                 reply_markup=InlineKeyboardMarkup(
                     [
@@ -76,7 +77,7 @@ async def start(b, m):
             return
     await StreamBot.send_photo(
         chat_id=m.chat.id,
-        photo ="https://telegra.ph/file/ca10e459bc6f48a4ad0f7.jpg",
+        photo ="https://telegra.ph/file/cd472acf49a993c915ed3.jpg",
         caption =f'Hi {m.from_user.mention(style="md")}!,\nI am Telegram File to Link Generator Bot with Channel support.\nSend me any file and get a direct download link and streamable link.!',
         reply_markup=buttonz)
 
@@ -103,7 +104,7 @@ async def help_handler(bot, message):
         except UserNotParticipant:
             await StreamBot.send_photo(
                 chat_id=message.chat.id,
-                photo="https://telegra.ph/file/ca10e459bc6f48a4ad0f7.jpg",
+                photo="https://telegra.ph/file/cd472acf49a993c915ed3.jpg",
                 Caption="**Join support group for use the bot !**\n\n__Only channel members can use the bot!__",
                 reply_markup=InlineKeyboardMarkup(
                     [
