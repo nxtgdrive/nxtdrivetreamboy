@@ -1,3 +1,5 @@
+# © ( aceknox )
+
 from Ace.vars import Var
 from Ace.bot import StreamBot
 from Ace.utils.human_readable import humanbytes
