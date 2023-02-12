@@ -19,12 +19,12 @@ async def maintainers(b,m):
     except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="I am Coded By [ACEKNOX](https://github.com/aceknox)",
+                    text="I am Coded By [ Aceknox ](https://github.com/aceknox)",
                     
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("Developer", url=f"https://t.me/aceknox")
+                                InlineKeyboardButton("Developer", url=f"https://telegram.me/aceknox")
                             ]
                         ]
                     ),
